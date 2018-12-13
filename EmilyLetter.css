@@ -210,9 +210,12 @@ p {
 @media only screen and (max-width: 1200px) {
   h1 {
     font-size: 42px;
-      display: inline;
+      display: inline-table;
+      margin: 0px;
   }
     .o {
-        font-size: 55px;
+        font-size: 80px;
+            margin-left: 20px;
+            margin-right: 25px;
     }
 }
