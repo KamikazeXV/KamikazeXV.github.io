@@ -47,7 +47,7 @@ pre.lettertext {
 
 
 img.balloon {
-    width: 200px;
+    width: 15.5vw;
     height: auto;
     display: block;
     position: fixed;
@@ -82,8 +82,8 @@ img.balloon {
     text-align: center;
     background-image: url(images/cakesh4_22.png);
     top: 0;
-    height: 510px;
-    width: 510px;
+    height: 37.5vw;
+    width: 37.5vw;
     z-index: -2;
     left: 50%;
     transform: translate(-50%, 0);
