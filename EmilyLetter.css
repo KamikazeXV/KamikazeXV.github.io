@@ -1,0 +1,110 @@
+.wrapper {
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    color: #F8FFE5;
+    height: 100px;
+    line-height: 100px;
+    padding: 100px 300px;
+}
+
+body {
+    background: #06D6A0;
+    margin: 0px;
+}
+
+.letter {
+    margin: 0 auto;
+    text-align: center;
+    background: #C6B7CB;
+    width: 100%;
+    color: white;
+}
+
+p.lettertext {
+    padding: 0 300px;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 2px;
+  }
+}
+
+.balloons {
+    display: block;
+    width: 20%;
+    height: 500px;
+    position: fixed;
+    z-index: -1;
+}
+
+
+img.balloon {
+    width: 200px;
+    height: auto;
+    display: block;
+    position: fixed;
+    -webkit-animation: MoveUpDown 0.8s linear infinite;
+    -webkit-animation-direction: alternate;
+    opacity: 0.95;
+}
+
+h1.headingtext {
+    font-size: 50px;
+    display: inline-block;
+    margin: 0px;
+    text-shadow: 0px 5px 50px #06D6A0;
+}
+
+.icingbrder {
+    background-image: url(images/icing.png);
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.cake {
+    display: block;
+    position: fixed;
+    text-align: center;
+    background-image: url(images/cakesh4_22.png);
+    top: 0;
+    height: 510px;
+    width: 510px;
+    z-index: -2;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: -10px;
+}
+
+canvas.confetti {
+    position: fixed;
+    display: block;
+    z-index: -3!important;
+    pointer-events: none;
+}
+
+canvas#confetti-canvas {
+    position: fixed;
+    top: 0;
+    z-index: -3!important;
+}
+
+img.starburst {
+    width: 100%;
+    position: fixed;
+    z-index: -4;
+}
+
+a.subtext {
+    display: block;
+    top: 0;
+    margin-top: -50px;
+}
