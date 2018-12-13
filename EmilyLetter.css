@@ -196,3 +196,23 @@ p {
         font-size: 30px;
     }
 }
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 42px;
+      display: inline-table;
+  }
+    .o {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 42px;
+      display: inline;
+  }
+    .o {
+        font-size: 55px;
+    }
+}
