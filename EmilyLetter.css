@@ -136,7 +136,7 @@ pre {
 h1 {
     font-family: "Bevan";
     top: 0;
-    font-size: 100px;
+    font-size: 50px;
   font-weight: 400;
   color: #fff;
   text-align: center;
@@ -179,13 +179,6 @@ p {
   margin-left: -8px;
 }
 
-.happybirthday {
+/*.happybirthday {
     margin-top: -68px;
-}
-
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 40px!important;
-        display: inline;
-    }
 }
