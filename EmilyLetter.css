@@ -82,12 +82,13 @@ img.balloon {
     text-align: center;
     background-image: url(images/cakesh4_22.png);
     top: 0;
-    height: 37.5vw;
+    height: 25.1vw;
     width: 37.5vw;
     z-index: -2;
     left: 50%;
     transform: translate(-50%, 0);
     top: -10px;
+    background-size: cover;
 }
 
 canvas.confetti {
