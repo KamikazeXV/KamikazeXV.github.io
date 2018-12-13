@@ -4,7 +4,7 @@
     color: #F8FFE5;
     height: 100px;
     line-height: 100px;
-    padding: 100px 0%;
+    padding: 100px 20%;
     overflow: hidden;
 }
 
@@ -217,7 +217,7 @@ p {
       margin: 0px;
   }
     .o {
-        font-size: 80px;
+        font-size: 120px;
             margin-left: 20px;
             margin-right: 25px;
     }
@@ -230,7 +230,7 @@ p {
       margin: 0px;
   }
     .o {
-        font-size: 120px;
+        font-size: 80px;
             margin-left: 20px;
             margin-right: 25px;
     }
