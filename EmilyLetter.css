@@ -181,4 +181,14 @@ p {
 
 /*.happybirthday {
     margin-top: -68px;
+}*/
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+      display: inline-table;
+  }
+    .o {
+        font-size: 30px;
+    }
 }
