@@ -85,7 +85,7 @@ img.balloon {
     width: 37.5vw;
     z-index: -2;
     left: 50%;
-    transform: translate(-50%,3.2vw);
+    transform: translate(-50%,3.5vw);
     background-size: cover;
 }
 
