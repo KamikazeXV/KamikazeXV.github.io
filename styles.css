@@ -187,6 +187,7 @@ body {
         background-size: 100% 60px;
         width: 95%;
         height: 90%;
+        position: fixed;
       }
 
       .letteropen .lettertxt {
@@ -194,11 +195,12 @@ body {
         position: relative;
         color: #798992;
         display: inline-block;
-        width: 50vw;
+        width: 80vw;
         text-align: left;
         font-family: 'Sriracha', cursive;
         margin: 0px;
-        top: 25px;
+        font-size: 30px;
+        top: 65px;
       }
   }
 
