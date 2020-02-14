@@ -135,7 +135,7 @@ body {
     text-align: left;
     font-family: 'Sriracha', cursive;
     margin: 0px;
-    top: 20%;
+    top: 25px;
   }
 
   .letter .lettertxt {
@@ -166,9 +166,40 @@ body {
     -ms-background-size: 100% 20px;
     -o-background-size: 100% 20px;
     background-size: 100% 20px;
-    width: 70vw;
+    width: 70%;
     height: 90vh;
     transition: all 0.2s fade;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #closed {
+        background: #fff;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+        background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+        -webkit-background-size: 100% 60px;
+        -moz-background-size: 100% 60px;
+        -ms-background-size: 100% 60px;
+        -o-background-size: 100% 60px;
+        background-size: 100% 60px;
+        width: 90%;
+        height: 90%;
+      }
+
+      .letteropen .lettertxt {
+        line-height: 60px;
+        position: relative;
+        color: #798992;
+        display: inline-block;
+        width: 50vw;
+        text-align: left;
+        font-family: 'Sriracha', cursive;
+        margin: 0px;
+        top: 25px;
+      }
   }
 
   #closed::before {
