@@ -171,7 +171,7 @@ body {
     transition: all 0.2s fade;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media (orientation: portrait) {
     #closed {
         background: #fff;
         background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
@@ -185,7 +185,7 @@ body {
         -ms-background-size: 100% 60px;
         -o-background-size: 100% 60px;
         background-size: 100% 60px;
-        width: 90%;
+        width: 95%;
         height: 90%;
       }
 
