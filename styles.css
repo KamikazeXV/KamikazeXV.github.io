@@ -196,11 +196,14 @@ body {
         color: #798992;
         display: inline-block;
         width: 80vw;
+        height: 90%;
         text-align: left;
         font-family: 'Sriracha', cursive;
         margin: 0px;
         font-size: 30px;
-        top: 65px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        overflow: scroll;
       }
   }
 
