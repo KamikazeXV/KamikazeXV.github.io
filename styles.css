@@ -131,9 +131,11 @@ body {
     position: relative;
     color: #798992;
     display: inline-block;
-    width: 550px;
+    width: 50vw;
     text-align: left;
     font-family: 'Sriracha', cursive;
+    margin: 0px;
+    top: 20%;
   }
 
   .letter .lettertxt {
@@ -164,8 +166,8 @@ body {
     -ms-background-size: 100% 20px;
     -o-background-size: 100% 20px;
     background-size: 100% 20px;
-    width: 680px;
-    height: 520px;
+    width: 70vw;
+    height: 90vh;
     transition: all 0.2s fade;
   }
 
